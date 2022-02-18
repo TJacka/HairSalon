@@ -30,7 +30,96 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  
+}
 
+nav > * {
+  height: 100px;
+  padding: 20px 5%;
+}
+
+nav a {
+  padding: 20px 2.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+
+.hero--inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 5rem;
+  max-width: 450px;
+}
+
+.tripleinfo--inner {
+  max-width: 1280px;
+  margin: 0 auto; 
+  height: 300px;
+}
+
+.tripleinfo section section {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.momentum {
+  width: 100%;
+  height: 500px;
+  background: grey;
+  display: inline-block;
+}
+
+.momentum--inner {
+  max-width: 1280px;
+  margin: 0 auto; 
+  height: 300px;
+}
+
+.momentum--inner > section {
+  float: left;
+  width: 40%;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+.stylists section {
+  max-width: 1280px;
+  margin: 0 auto; 
+  height: 500px;
+  text-align: center;
+}
+
+.stylists img {
+  margin: 100px 20px;
+}
+
+.special section {
+  max-width: 1280px;
+  margin: 0 auto; 
+  height: 300px;
+  text-align: center;
+}
+
+.lookbook section {
+  max-width: 1280px;
+  margin: 0 auto; 
+  height: 500px;
+  text-align: center;
+}
+
+.lookbook img {
+  margin: 100px 20px;
 }
 
 footer {
