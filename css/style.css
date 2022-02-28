@@ -59,13 +59,14 @@
 
   .tripleinfo--inner {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
     height: 300px;
+    display: flex;
   }
 
-  .tripleinfo section section {
-    float: left;
-    width: 33.33%;
+  .tripleinfo--inner section {
+    /* float: left;
+    width: 33.33%; */
     text-align: center;
   }
 
@@ -73,12 +74,12 @@
     width: 100%;
     height: 500px;
     background: grey;
-    display: inline-block;
   }
 
   .momentum--inner {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding-left: 100px;
     height: 300px;
   }
 
@@ -86,12 +87,11 @@
     float: left;
     width: 40%;
     padding: 100px;
-    margin: 0 auto;
   }
 
   .stylists section {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
     height: 500px;
     text-align: center;
   }
@@ -102,14 +102,14 @@
 
   .special section {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
     height: 300px;
     text-align: center;
   }
 
   .lookbook section {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
     height: 500px;
     text-align: center;
   }
