@@ -61,12 +61,12 @@
     max-width: 1280px;
     margin: 0 auto;
     height: 300px;
-    display: flex;
+    /* display: flex; */
   }
 
   .tripleinfo--inner section {
-    /* float: left;
-    width: 33.33%; */
+    float: left;
+    width: 33.33%;
     text-align: center;
   }
 
