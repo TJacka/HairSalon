@@ -61,12 +61,12 @@
     max-width: 1280px;
     margin: 0 auto;
     height: 300px;
-    /* display: flex; */
+    display: flex;
   }
 
   .tripleinfo--inner section {
-    float: left;
-    width: 33.33%;
+    /* float: left;
+    width: 33.33%; */
     text-align: center;
   }
 
@@ -81,10 +81,11 @@
     margin: 0 auto;
     padding-left: 100px;
     height: 300px;
+    display: flex;
   }
 
   .momentum--inner > section {
-    float: left;
+    /* float: left; */
     width: 40%;
     padding: 100px;
   }
